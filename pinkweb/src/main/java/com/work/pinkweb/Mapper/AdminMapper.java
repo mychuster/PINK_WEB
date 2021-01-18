@@ -12,6 +12,6 @@ public interface AdminMapper {
     @Select("select * from admin where admin_id = #{id}")
     Admin getallAdminById(Integer id);
 
-    @Insert("INSERT INTO admin(admin_id,admin_name,admin_power) VALUES(#{admin_id},#{admin_name},#{admin_power})")
+    @Insert("INSERT INTO admin(admin_id,admin_pwd,admin_name,admin_power) VALUES(#{admin_id},#{admin_pwd},#{admin_name},#{admin_power})")
     Integer addAdminInfo(Admin admin);
 }
