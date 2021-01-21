@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin_list</title>
+</head>
+<body>
+    <div>
+        <form class="form-inline col-lg-8" method="post" action="/admin_list">
+            <div class="form-group">
+               <label >姓名</label>
+               <input type="text" th:value="${adminName}"  name="adminName" class="form-control" >
+               <button type="submit" class="btn btn-info">查询</button>
+            </div>
+        </form>
+
+        <form class="form-inline col-lg-8" method="get" action="/register/admin_register">
+            <div class="form-group">
+                <button type="submit" class="btn btn-info">新增</button>
+            </div>
+        </form>
+
+        <br/>        <br/>
+
+        <table class="table">
+            <tr>
+                <th>编号</th>
+                <th>用户名</th>
+                <th>权限</th>
+                <th>上次登录时间</th>
+                <th>操作</th>
+            </tr>
+
+            <tr th:each="Admin,userStat:${admins}">
+                <td th:text="${userStat.index+1}"></td>
+                <td th:text="${Admin.admin_name}"></td>
+                <td th:text="${Admin.admin_power}"></td>
+                <td th:text="${Admin.admin_time}"></td>
+                <td><a th:href="@{'admin_update/'+${Admin.admin_id}}"> 修改 </a>|<a th:href="@{'admin_delete/'+${Admin.admin_id}}">  删除 </a> </td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
