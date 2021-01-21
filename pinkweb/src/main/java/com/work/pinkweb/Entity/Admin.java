@@ -1,10 +1,14 @@
 package com.work.pinkweb.Entity;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class Admin {
     private Integer admin_id;
     private Integer admin_pwd;
     private String admin_name;
     private Integer admin_power;
+    private Date admin_time;
 
     public Admin(Integer admin_id, Integer admin_pwd, String admin_name, Integer admin_power) {
         this.admin_id = admin_id;
@@ -43,6 +47,16 @@ public class Admin {
 
     public void setAdmin_power(int admin_power) {
         this.admin_power = admin_power;
+    }
+
+    public String getAdmin_time() {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String signTime = sdf.format(admin_time);
+        return signTime;
+    }
+
+    public void setAdmin_time(Date admin_time) {
+        this.admin_time = admin_time;
     }
 
     @Override
