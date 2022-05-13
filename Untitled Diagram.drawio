@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T03:34:18.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Vw4025Y37qI-XOOTs0zY" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T03:34:33.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Q_MfD0YXmcDYzaPXkcBx" version="18.0.2" type="github">
   <diagram id="pb9K2aLrL0MpspYT_wj8" name="Page-1">
     <mxGraphModel dx="-206" dy="-1603" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,14 +182,23 @@
         <mxCell id="werScHq9gtTSDX1pdfh9-41" value="t1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="900" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RFSjPwAnzZT84VciXK4U-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="RFSjPwAnzZT84VciXK4U-3" target="RFSjPwAnzZT84VciXK4U-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RFSjPwAnzZT84VciXK4U-3" value="fe-&amp;gt;rfileProc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="1750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RFSjPwAnzZT84VciXK4U-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="RFSjPwAnzZT84VciXK4U-4" target="RFSjPwAnzZT84VciXK4U-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RFSjPwAnzZT84VciXK4U-4" value="readQueryFromClient" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="610" y="1810" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RFSjPwAnzZT84VciXK4U-5" value="核心函数：完成读取，解析，处理，响应" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="309" y="1818" width="285" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="RFSjPwAnzZT84VciXK4U-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="RFSjPwAnzZT84VciXK4U-7" target="RFSjPwAnzZT84VciXK4U-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RFSjPwAnzZT84VciXK4U-7" value="read()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="611" y="1865" width="120" height="40" as="geometry" />
