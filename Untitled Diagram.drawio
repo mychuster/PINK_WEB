@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T06:45:41.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="Pjc7ooBkVkuKys36BUjJ" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T06:47:03.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="WxDgjdNBPDHgBsOIv_Oq" version="18.1.2" type="github">
   <diagram id="pb9K2aLrL0MpspYT_wj8" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -365,10 +365,10 @@
           <mxGeometry x="1083" y="401" width="62" height="62" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-17" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1243" y="405" width="62" height="62" as="geometry" />
+          <mxGeometry x="1234" y="403" width="62" height="62" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-18" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1309" y="379" width="105" height="105" as="geometry" />
+          <mxGeometry x="1603" y="330" width="105" height="105" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-19" value="ProcessEventCore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1086" y="663" width="106" height="32" as="geometry" />
@@ -382,8 +382,8 @@
         <mxCell id="DiWZxFrGClx2wnMmcHRq-23" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1342" y="518" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-24" value="process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1155" y="420" width="80" height="33" as="geometry" />
+        <mxCell id="DiWZxFrGClx2wnMmcHRq-24" value="有全局锁则：process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1151" y="416" width="80" height="33" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-25" value="client锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1114" y="181" width="37" height="37" as="geometry" />
