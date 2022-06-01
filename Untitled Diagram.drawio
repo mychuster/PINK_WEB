@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T07:24:46.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="8JQjTtimgNzC84NXz3UQ" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T07:28:59.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="sRcrIRhMs_XagAVyhBtD" version="18.1.2" type="github">
   <diagram id="pb9K2aLrL0MpspYT_wj8" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -358,22 +358,16 @@
         <mxCell id="DiWZxFrGClx2wnMmcHRq-17" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1234" y="403" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-18" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1301" y="389" width="88" height="88" as="geometry" />
-        </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-19" value="ProcessEventCore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1086" y="663" width="106" height="32" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-20" value="上锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1179" y="515" width="59" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-21" value="上锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1247" y="501" width="87" height="87" as="geometry" />
-        </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-23" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1342" y="518" width="62" height="62" as="geometry" />
+          <mxGeometry x="1245" y="514" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-24" value="有全局锁则：process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DiWZxFrGClx2wnMmcHRq-24" value="process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1151" y="416" width="80" height="33" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-25" value="client锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
@@ -391,23 +385,14 @@
             <mxPoint x="1059" y="207" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-30" value="上锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1156" y="297" width="46" height="46" as="geometry" />
-        </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-32" value="收包" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="1314" y="661" width="79" height="33" as="geometry" />
+          <mxGeometry x="1270" y="662" width="79" height="33" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-37" value="上锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1199" y="645" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-38" value="上锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1266" y="653" width="46" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-39" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1398" y="653" width="46" height="46" as="geometry" />
-        </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-40" value="解锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1448" y="645" width="62" height="62" as="geometry" />
+          <mxGeometry x="1357" y="647" width="62" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
