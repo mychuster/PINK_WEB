@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T06:49:10.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="vTe_iGAt1CIV0TWTfDoE" version="18.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-01T07:24:38.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="OQSopq7EIvExzyh16PQ7" version="18.1.2" type="github">
   <diagram id="pb9K2aLrL0MpspYT_wj8" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,16 +338,10 @@
           <mxGeometry x="952" y="510" width="120" height="192" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-4" value="ae锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1104" y="101" width="62" height="62" as="geometry" />
+          <mxGeometry x="1091" y="24" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-5" value="模块锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1093" y="9" width="86" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-6" value="整个服务一个模块锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1192" y="41" width="134" height="21" as="geometry" />
-        </mxCell>
-        <mxCell id="DiWZxFrGClx2wnMmcHRq-7" value="一个worker（ae）线程一个ae锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1193" y="122" width="192" height="24" as="geometry" />
+        <mxCell id="DiWZxFrGClx2wnMmcHRq-7" value="ae全局锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="40" width="192" height="24" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DiWZxFrGClx2wnMmcHRq-13" target="DiWZxFrGClx2wnMmcHRq-1">
           <mxGeometry relative="1" as="geometry" />
@@ -386,10 +380,10 @@
           <mxGeometry x="1151" y="416" width="80" height="33" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-25" value="client锁" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1114" y="181" width="37" height="37" as="geometry" />
+          <mxGeometry x="1102" y="138" width="37" height="37" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-26" value="每个client连接有一个锁（别的线程可能处理非本线程的连接）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1197" y="192" width="192" height="24" as="geometry" />
+          <mxGeometry x="1163" y="145" width="192" height="24" as="geometry" />
         </mxCell>
         <mxCell id="DiWZxFrGClx2wnMmcHRq-27" value="锁住资源的级别由高到低" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="979" y="88" width="60" height="30" as="geometry" />
