@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T07:58:40.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="o1dQceB2idPqYRF_NZHk" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T07:59:51.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="jbwyRU1G21B94ur10uOw" version="18.2.0" type="github">
   <diagram id="pb9K2aLrL0MpspYT_wj8" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -436,17 +436,17 @@
         <mxCell id="RiMyCD7pk_9OUtgfHOgG-15" value="sever thread 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2085" y="727" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RiMyCD7pk_9OUtgfHOgG-17" value="ProcessEventCore 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2245" y="509" width="120" height="60" as="geometry" />
+        <mxCell id="RiMyCD7pk_9OUtgfHOgG-17" value="ProcessEventCore 1&lt;br&gt;准备好了100client数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="509" width="128" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="RiMyCD7pk_9OUtgfHOgG-18" value="ProcessEventCore 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2245" y="579" width="120" height="60" as="geometry" />
+        <mxCell id="RiMyCD7pk_9OUtgfHOgG-18" value="ProcessEventCore 2&lt;br&gt;准备好了90client数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="579" width="131" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RiMyCD7pk_9OUtgfHOgG-19" value="ProcessEventCore 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2246" y="651" width="120" height="60" as="geometry" />
+        <mxCell id="RiMyCD7pk_9OUtgfHOgG-19" value="ProcessEventCore 3&lt;br&gt;准备好了110client数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2246" y="651" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RiMyCD7pk_9OUtgfHOgG-20" value="ProcessEventCore 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2245" y="725" width="120" height="60" as="geometry" />
+        <mxCell id="RiMyCD7pk_9OUtgfHOgG-20" value="ProcessEventCore 4&lt;br&gt;准备好了80client数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="725" width="134" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
