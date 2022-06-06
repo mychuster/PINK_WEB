@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T08:03:57.031Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="oELEf9oBKDF4yXqMBZPq" version="18.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-06T08:04:29.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.62 Safari/537.36" etag="3WUY4hRlwCkIWuBZ_j6a" version="18.2.0" type="github">
   <diagram id="pb9K2aLrL0MpspYT_wj8" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -462,7 +462,7 @@
         <mxCell id="RiMyCD7pk_9OUtgfHOgG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RiMyCD7pk_9OUtgfHOgG-25" target="RiMyCD7pk_9OUtgfHOgG-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RiMyCD7pk_9OUtgfHOgG-25" value="process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RiMyCD7pk_9OUtgfHOgG-25" value="process&lt;br&gt;释放锁" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2092" y="574" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RiMyCD7pk_9OUtgfHOgG-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RiMyCD7pk_9OUtgfHOgG-26" target="RiMyCD7pk_9OUtgfHOgG-17">
@@ -470,6 +470,9 @@
         </mxCell>
         <mxCell id="RiMyCD7pk_9OUtgfHOgG-26" value="afterSleep" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2093" y="649" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RiMyCD7pk_9OUtgfHOgG-35" value="process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2324" y="595" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
